@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ed84c6138106744c16fcd2a7b8f96e0f",
+    "content-hash": "206442c668f50e6340052a2a5a04ab34",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -183,6 +183,118 @@
                 }
             ],
             "time": "2023-12-11T17:09:12+00:00"
+        },
+        {
+            "name": "codenix-sv/coingecko-api",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codenix-sv/coingecko-api.git",
+                "reference": "6946e36d8f5e989658405f9e0fb90b7a53c8b561"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codenix-sv/coingecko-api/zipball/6946e36d8f5e989658405f9e0fb90b7a53c8b561",
+                "reference": "6946e36d8f5e989658405f9e0fb90b7a53c8b561",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "guzzlehttp/guzzle": "~6.0|^7.0.1",
+                "php": "^7.2|^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Codenixsv\\CoinGeckoApi\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Volodymyr Svyryd",
+                    "email": "codenix.sv@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP REST API client for coingecko.com",
+            "homepage": "https://github.com/codenix-sv/coingecko-api",
+            "keywords": [
+                "api",
+                "client",
+                "coingecko.com",
+                "php",
+                "rest"
+            ],
+            "support": {
+                "issues": "https://github.com/codenix-sv/coingecko-api/issues?state=open",
+                "source": "https://github.com/codenix-sv/coingecko-api"
+            },
+            "time": "2021-07-24T16:33:27+00:00"
+        },
+        {
+            "name": "coreproc/laravel-wallet-plus",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CoreProc/laravel-wallet-plus.git",
+                "reference": "9601dec6485cbdf1c762ea1ef04e5dd5d560335f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CoreProc/laravel-wallet-plus/zipball/9601dec6485cbdf1c762ea1ef04e5dd5d560335f",
+                "reference": "9601dec6485cbdf1c762ea1ef04e5dd5d560335f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.2 || ^9.3",
+                "symfony/var-dumper": "^4.3 || ^5.1 || ^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "CoreProc\\WalletPlus\\WalletPlusServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CoreProc\\WalletPlus\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Bautista",
+                    "email": "chris.bautista@coreproc.ph",
+                    "homepage": "https://coreproc.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Easily add a virtual wallet to your Laravel models. Features multiple wallets and a ledger system to help keep track of all transactions in the wallets.",
+            "homepage": "https://github.com/coreproc/laravel-wallet-plus",
+            "keywords": [
+                "coreproc",
+                "laravel-wallet-plus"
+            ],
+            "support": {
+                "issues": "https://github.com/CoreProc/laravel-wallet-plus/issues",
+                "source": "https://github.com/CoreProc/laravel-wallet-plus/tree/1.5.0"
+            },
+            "time": "2022-03-28T03:48:58+00:00"
         },
         {
             "name": "dasprid/enum",
